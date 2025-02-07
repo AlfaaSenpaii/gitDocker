@@ -1,4 +1,4 @@
 FROM nginx
-RUN apt-get update && apt-get install -y nano vim htop curl
+RUN apt-get update && apt-get install -y htop
 EXPOSE 80
 CMD ["nginx", "-g", "deamon off;"]
