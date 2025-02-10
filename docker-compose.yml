@@ -9,7 +9,7 @@ services:
       - .:/usr/src/app
     ports:
       - "3000:3000"
-    enviroment:
+    environment:
       - NODE_ENV=development
       - DB_HOST=db 
       - DB_USER=root
